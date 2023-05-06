@@ -1,0 +1,55 @@
+
+> angular-phonecat@0.0.0 start /Users/mengjingqiu/d/Angulearning/demos/ng1.5
+> http-server ./app -a localhost -p 8000 -c-1
+
+Starting up http-server, serving ./app
+Available on:
+  http://localhost:8000
+Hit CTRL-C to stop the server
+[2023-05-06T08:05:40.003Z] "GET /" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+(node:55191) [DEP0066] DeprecationWarning: OutgoingMessage.prototype._headers is deprecated
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[2023-05-06T08:05:40.064Z] "GET /lib/bootstrap/dist/css/bootstrap.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+[2023-05-06T08:05:40.067Z] "GET /app.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+[2023-05-06T08:05:40.078Z] "GET /app.animations.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+[2023-05-06T08:05:40.079Z] "GET /lib/jquery/dist/jquery.js" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+[2023-05-06T08:05:40.082Z] "GET /lib/angular/angular.js" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+[2023-05-06T08:05:40.086Z] "GET /lib/angular-animate/angular-animate.js" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+[2023-05-06T08:05:40.095Z] "GET /lib/angular-resource/angular-resource.js" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+[2023-05-06T08:05:40.101Z] "GET /lib/angular-route/angular-route.js" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+[2023-05-06T08:05:40.103Z] "GET /app.module.js" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+[2023-05-06T08:05:40.122Z] "GET /app.config.js" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+[2023-05-06T08:05:40.126Z] "GET /app.animations.js" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+[2023-05-06T08:05:40.127Z] "GET /core/core.module.js" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+[2023-05-06T08:05:40.129Z] "GET /core/checkmark/checkmark.filter.js" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+[2023-05-06T08:05:40.132Z] "GET /core/phone/phone.module.js" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+[2023-05-06T08:05:40.140Z] "GET /core/phone/phone.service.js" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+[2023-05-06T08:05:40.145Z] "GET /phone-list/phone-list.module.js" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+[2023-05-06T08:05:40.147Z] "GET /phone-list/phone-list.component.js" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+[2023-05-06T08:05:40.149Z] "GET /phone-detail/phone-detail.module.js" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+[2023-05-06T08:05:40.156Z] "GET /phone-detail/phone-detail.component.js" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+[2023-05-06T08:05:40.477Z] "GET /phone-list/phone-list.template.html" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+[2023-05-06T08:05:40.549Z] "GET /phones/phones.json" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+[2023-05-06T08:05:40.555Z] "GET /favicon.ico" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+[2023-05-06T08:05:40.560Z] "GET /favicon.ico" Error (404): "Not found"
+[2023-05-06T08:05:40.589Z] "GET /img/phones/motorola-xoom-with-wi-fi.0.jpg" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+[2023-05-06T08:05:40.590Z] "GET /img/phones/motorola-xoom.0.jpg" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+[2023-05-06T08:05:40.591Z] "GET /img/phones/motorola-atrix-4g.0.jpg" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+[2023-05-06T08:05:40.592Z] "GET /img/phones/dell-streak-7.0.jpg" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+[2023-05-06T08:05:40.592Z] "GET /img/phones/samsung-gem.0.jpg" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+[2023-05-06T08:05:40.593Z] "GET /img/phones/dell-venue.0.jpg" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+[2023-05-06T08:05:40.608Z] "GET /img/phones/sanyo-zio.0.jpg" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+[2023-05-06T08:05:40.608Z] "GET /img/phones/lg-axis.0.jpg" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+[2023-05-06T08:05:40.611Z] "GET /img/phones/droid-pro-by-motorola.0.jpg" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+[2023-05-06T08:05:40.612Z] "GET /img/phones/motorola-defy-with-motoblur.0.jpg" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+[2023-05-06T08:05:40.612Z] "GET /img/phones/samsung-transform.0.jpg" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+[2023-05-06T08:05:40.613Z] "GET /img/phones/motorola-charm-with-motoblur.0.jpg" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+[2023-05-06T08:05:40.626Z] "GET /img/phones/samsung-mesmerize-a-galaxy-s-phone.0.jpg" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+[2023-05-06T08:05:40.627Z] "GET /img/phones/nexus-s.0.jpg" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+[2023-05-06T08:05:40.628Z] "GET /img/phones/samsung-showcase-a-galaxy-s-phone.0.jpg" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+[2023-05-06T08:05:40.628Z] "GET /img/phones/droid-2-global-by-motorola.0.jpg" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+[2023-05-06T08:05:40.629Z] "GET /img/phones/t-mobile-mytouch-4g.0.jpg" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+[2023-05-06T08:05:40.630Z] "GET /img/phones/motorola-bravo-with-motoblur.0.jpg" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+[2023-05-06T08:05:40.649Z] "GET /img/phones/samsung-galaxy-tab.0.jpg" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+[2023-05-06T08:05:40.652Z] "GET /img/phones/t-mobile-g2.0.jpg" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+http-server stopped.
